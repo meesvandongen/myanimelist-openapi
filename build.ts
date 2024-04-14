@@ -18,7 +18,6 @@ $("script").each((i, el) => {
 
     const jsObject = JSON.parse(jsonString);
 
-    console.log(jsObject.spec.data);
     Deno.writeTextFileSync(
       "openapi.json",
       JSON.stringify(jsObject.spec.data, null, 2)
