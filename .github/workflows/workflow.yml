@@ -26,4 +26,4 @@ jobs:
       - name: Build step
         run: "deno task build"
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v7
